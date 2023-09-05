@@ -35,7 +35,7 @@ public class treeTraversal {
         Tree.inOrder(r);
         System.out.println();
 
-        System.out.println(Tree.countNodes(r));
+//        System.out.println(Tree.countNodes(r));
     }
 }
 
@@ -91,9 +91,6 @@ class Tree{
         inOrder(r.right);
     }
 
-    public static int countNodes(Node r){
-        if()
-    }
 }
 class Node{
     Node left,right;
